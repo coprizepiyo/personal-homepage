@@ -17,6 +17,11 @@ html,body{
   padding: 0;
   margin: 0;
 }
+
+p{
+  padding: 0;
+  margin: 0;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
 }
