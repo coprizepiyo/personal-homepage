@@ -28,6 +28,17 @@ ul {
   padding: 0;
   margin: 0;
 }
+
+.fix{
+  *zoom: 1;
+}
+
+.fix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
 }
